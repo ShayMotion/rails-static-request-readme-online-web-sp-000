@@ -1,4 +1,6 @@
 class StaticController < ApplicationController
 end
 
-render "some_page"
+def about
+  render "some_page"
+end
